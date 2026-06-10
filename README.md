@@ -55,5 +55,22 @@
 | 14 | งูหางแฮ่มภูเขา | Ovophis monticola | 57 |
 | 15 | งูเขียวพระอินทร์ | Chrysopelea ornata | 83 |
 
-### dataset2 [update: xx/xx/xxxx]
-...
+### dataset1 [update: 10/06/2569]
+###### เป็นข้อมูลรูปที่เห็นงูชัดเจน
+| ลำดับ | ชื่อสามัญภาษาไทย | ชื่อวิทยาศาสตร์ | จำนวนรูป |
+| :--- | :--- | :--- | :--- |
+| 1 | งูหลาม | Python bivittatus | 71 |
+| 2 | งูเหลือม | Malayopython reticulatus | 54 |
+| 3 | งูสามเหลี่ยม | Bungarus fasciatus | 32 |
+| 4 | งูทับสมิงคลา | Bungarus candidus | 30 |
+| 5 | งูเห่าไทย, งูเห่าหม้อ, งูเห่าธรรมดา | Naja kaouthia | 46 |
+| 6 | งูเห่าพ่นพิษสยาม | Naja siamensis | 38 |
+| 7 | งูจงอาง | Ophiophagus hannah | 44 |
+| 8 | งูพริกสีน้ำตาล | Calliophis intestinalis | 16 |
+| 9 | งูปล้องหวายหัวดำ | Calliophis maculiceps | 9 |
+| 10 | งูแมวเซา | Daboia siamensis | 36 |
+| 11 | งูกะปะ | Calloselasma rhodostoma | 45 |
+| 12 | งูเขียวหางไหม้ | Trimeresurus | 16 |
+| 13 | งูเขียวหางไหม้ตาโต | Trimeresurus macrops | 27 |
+| 14 | งูหางแฮ่มภูเขา | Ovophis monticola | 32 |
+| 15 | งูเขียวพระอินทร์ | Chrysopelea ornata | 40 |

@@ -75,6 +75,6 @@
 | 14 | งูหางแฮ่มภูเขา | Ovophis monticola | 32 |
 | 15 | งูเขียวพระอินทร์ | Chrysopelea ornata | 40 |
 
-### v1coco-segmentation [update: 16/06/2569]
+### v1coco-segmentation [update: 18/06/2569]
 ###### เป็นข้อมูล dataset1_robowflow ที่ผ่านกระบวนการ segmentation ด้วย robowflow
 ![alt text](screenshot/image.png)

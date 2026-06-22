@@ -29,7 +29,7 @@ def create_mask(image_info, annotations, output_folder):
 
   # Save the numpy array as a TIFF using tifffile library
   # mask_path = os.path.join(output_folder, image_info['file_name'].replace('.tif', '_mask.tif'))
-  mask_path = os.path.join(output_folder, image_info['file_name'].replace('.jpg', '_mask.jpg'))
+  mask_path = os.path.join(output_folder, image_info['file_name'].replace('.jpg', '.jpg'))
   tifffile.imsave(mask_path, mask_np)
 
   print(f"Saved mask for {image_info['file_name']} to {mask_path}")
@@ -63,20 +63,21 @@ def main(json_file, mask_output_folder, image_output_folder, original_image_dir)
 
 if __name__ == '__main__':
   # Train
-  # original_image_dir = 'v1coco-segmentation/train'  # Where your original images are stored
-  # json_file = 'v1coco-segmentation/train/snake_coco_train.json'
-  # mask_output_folder = 'v1coco-segmentation-maskLebels/train/masks'  # Modify this as needed. Using val2 so my data is not overwritten
-  # image_output_folder = 'v1coco-segmentation-maskLebels/train/images'  # 
+  original_image_dir = 'v1coco-segmentation/train' 
+  json_file = 'v1coco-segmentation/train/snake_coco_train.json'
+  mask_output_folder = 'v1coco-segmentation-maskLebels/train/masks'
+  image_output_folder = 'v1coco-segmentation-maskLebels/train/images' 
 
-  # # Valid
-  # original_image_dir = 'v1coco-segmentation/valid'  # Where your original images are stored
+  # Valid
+  # original_image_dir = 'v1coco-segmentation/valid'
   # json_file = 'v1coco-segmentation/valid/snake_coco_val.json'
-  # mask_output_folder = 'v1coco-segmentation-maskLebels/val/masks'  # Modify this as needed. Using val2 so my data is not overwritten
-  # image_output_folder = 'v1coco-segmentation-maskLebels/val/images'  # 
+  # mask_output_folder = 'v1coco-segmentation-maskLebels/val/masks' 
+  # image_output_folder = 'v1coco-segmentation-maskLebels/val/images'
 
   # Test
-  original_image_dir = 'v1coco-segmentation/test'  # Where your original images are stored
-  json_file = 'v1coco-segmentation/test/snake_coco_test.json'
-  mask_output_folder = 'v1coco-segmentation-maskLebels/test/masks'  # Modify this as needed. Using val2 so my data is not overwritten
-  image_output_folder = 'v1coco-segmentation-maskLebels/test/images'  # 
+  # original_image_dir = 'v1coco-segmentation/test'
+  # json_file = 'v1coco-segmentation/test/snake_coco_test.json'
+  # mask_output_folder = 'v1coco-segmentation-maskLebels/test/masks'
+  # image_output_folder = 'v1coco-segmentation-maskLebels/test/images'
+
   main(json_file, mask_output_folder, image_output_folder, original_image_dir)

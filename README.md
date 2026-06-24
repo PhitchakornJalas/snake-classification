@@ -78,3 +78,7 @@
 ### v1coco-segmentation [update: 18/06/2569]
 ###### เป็นข้อมูล dataset1_robowflow ที่ผ่านกระบวนการ segmentation ด้วย robowflow
 ![alt text](screenshot/image.png)
+
+### V2YOL8-segmentation [update: 24/06/2569]
+###### เป็นข้อมูล dataset1_robowflow ที่ผ่านกระบวนการ segmentation labels ด้วย robowflow
+![alt text](screenshot/image1.png)

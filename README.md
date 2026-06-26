@@ -82,3 +82,6 @@
 ### V2YOL8-segmentation [update: 24/06/2569]
 ###### เป็นข้อมูล dataset1_robowflow ที่ผ่านกระบวนการ segmentation labels ด้วย robowflow
 ![alt text](screenshot/image1.png)
+
+### V3YOL8-segmentation [update: 26/06/2569]
+###### V2YOL8-segmentation ที่ตัด class snake ออก

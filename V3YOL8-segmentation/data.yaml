@@ -1,6 +1,6 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: V3YOL8-segmentation/train/images
+val: V3YOL8-segmentation/valid/images
+test: V3YOL8-segmentation/test/images
 
 nc: 15
 names: ['Bungarus candidus', 'Bungarus fasciatus', 'Calliophis intestinalis', 'Calliophis maculiceps', 'Calloselasma rhodostoma', 'Chrysopelea ornata', 'Daboia siamensis', 'Malayopython reticulatus', 'Naja kaouthia', 'Naja siamensis', 'Ophiophagus hannah', 'Ovophis monticola', 'Python bivittatus', 'Trimeresurus', 'Trimeresurus macrops']

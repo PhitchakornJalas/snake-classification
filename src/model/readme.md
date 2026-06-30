@@ -21,9 +21,9 @@
 - Weighted Average Precision:
 - Mean Average Precision, mAP:
 
-![alt text](v1[YOLO8][26062569]_1/pic/image.png)
-![alt text](v1[YOLO8][26062569]_1/pic/image1.png)
-![alt text](v1[YOLO8][26062569]_1/pic/image2.png)
+![alt text](V1[YOLO8][26062569]_1/pic/image.png)
+![alt text](V1[YOLO8][26062569]_1/pic/image1.png)
+![alt text](V1[YOLO8][26062569]_1/pic/image2.png)
 
 <div id="2"></div>
 
